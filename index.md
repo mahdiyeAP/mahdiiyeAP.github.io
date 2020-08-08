@@ -1,5 +1,7 @@
 ### <img src=“https://avatars2.githubusercontent.com/u/69253630?s=400&u=af3ebfad8d23c348cb1c7168bbe1448d3cc66f2f&v=4">
 
+---
+
 ### رزومه
 
 ---
