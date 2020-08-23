@@ -670,7 +670,7 @@
    </div>
  
  
-   <div class="property-item language__list" data-section="Language">
+      <div class="property-item language__list" data-section="Language">
        <div class="property-item_head">
            <span>
                <i class="fa fa-globe-americas"></i>
@@ -725,7 +725,7 @@
                                    </label>
                                </span>
                            </li>
-                           <li class="break-property-item"><div class="page-break"></div><div class="page-break-space" style="min-height:32.60000000000002mm"></div></li><li>
+                           <li>
                                <h2 class="subtitle language-item">کره ای</h2>
                                <span>
                                    <label>مهارت خواندن</label>
@@ -851,6 +851,7 @@
            </div>
        </div>
    </div>
+ 
  
            </div>
        </div>
