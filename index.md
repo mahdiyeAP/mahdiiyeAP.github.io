@@ -852,19 +852,6 @@
        </div>
    </div>
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
            </div>
        </div>
    <div data-page="1" class="page-indicator" style="top: 0mm;"></div><div data-count="1" class="page-watermark" style="top: 135mm; display: block;">CVBUILDER.ME</div><div data-page="2" class="page-indicator" style="top: 297mm;"></div><div data-count="2" class="page-watermark" style="top: 432mm; display: block;">CVBUILDER.ME</div></div>
@@ -1074,19 +1061,6 @@ $('<div data-count="' + (i + 1) + '" class="page-watermark">CVBUILDER.ME</div>')
        gtag('js', new Date());
        gtag('config', 'UA-101108363-3');
    </script>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
 <style id="dynamic-style">@font-face {
  font-family: mainfont;
