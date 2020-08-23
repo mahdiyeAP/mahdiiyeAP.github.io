@@ -8,16 +8,58 @@
 <link rel="icon" type="image/png" href="/favicon-new.png">
  
    <title>رزومه مهدیه احمدی پور </title>
-<meta name="description" content="دانشجوی دوره کارشناسی مهندسی کامپیوتر ورودی97 علاقه مند به برنامه نویسی و شاغل در زمینه غیررشته تحصیلی.">
+<meta name="description" content="دانشجوی دوره کارشناسی مهندسی کامپیوتر علاقه مند به برنامه نویسی اما شاغل در زمینه غیر رشته تحصیلی">
  
    <meta name="robots" content="noindex, nofollow">
  
 <link href="/css/Fonts.css" rel="stylesheet">
 <link rel="stylesheet" href="/lib/fontawesome5.6.3/css/all.min.css">
  
+   <link href="/css/Template/Design-Mode-RTL.css?v=yaW0bi9Lyv-fMl9HPSEGGcHBf4K6a9FYMbt_e7WKAs8" rel="stylesheet">
 <link href="/css/DefaultResume-RTL.css?v=qlQwDzoVqC4PLj8isn0ifgI_a80-YBZYt_ZWntb3ybY" rel="stylesheet">
  
    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="/lib/jquery/dist/jquery.min.js"></script>
+       <script src="/lib/jquery-ui/jquery-ui.min.js"></script>
+       <script src="/lib/jquery-ui/jquery.ui.touch-punch.js"></script>
+       <script src="/lib/notify/notify.min.js"></script><style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
+​font-weight: bold;
+​padding: 8px 15px 8px 14px;
+​text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+​background-color: #fcf8e3;
+​border: 1px solid #fbeed5;
+​-webkit-border-radius: 4px;
+​-moz-border-radius: 4px;
+​border-radius: 4px;
+​white-space: nowrap;
+​padding-left: 25px;
+​background-repeat: no-repeat;
+​background-position: 3px 7px;
+}
+.notifyjs-bootstrap-error {
+​color: #B94A48;
+​background-color: #F2DEDE;
+​border-color: #EED3D7;
+​background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtRJREFUeNqkVc1u00AQHq+dOD+0poIQfkIjalW0SEGqRMuRnHos3DjwAH0ArlyQeANOOSMeAA5VjyBxKBQhgSpVUKKQNGloFdw4cWw2jtfMOna6JOUArDTazXi/b3dm55socPqQhFka++aHBsI8GsopRJERNFlY88FCEk9Yiwf8RhgRyaHFQpPHCDmZG5oX2ui2yilkcTT1AcDsbYC1NMAyOi7zTX2Agx7A9luAl88BauiiQ/cJaZQfIpAlngDcvZZMrl8vFPK5+XktrWlx3/ehZ5r9+t6e+WVnp1pxnNIjgBe4/6dAysQc8dsmHwPcW9C0h3fW1hans1ltwJhy0GxK7XZbUlMp5Ww2eyan6+ft/f2FAqXGK4CvQk5HueFz7D6GOZtIrK+srupdx1GRBBqNBtzc2AiMr7nPplRdKhb1q6q6zjFhrklEFOUutoQ50xcX86ZlqaZpQrfbBdu2R6/G19zX6XSgh6RX5ubyHCM8nqSID6ICrGiZjGYYxojEsiw4PDwMSL5VKsC8Yf4VRYFzMzMaxwjlJSlCyAQ9l0CW44PBADzXhe7xMdi9HtTrdYjFYkDQL0cn4Xdq2/EAE+InCnvADTf2eah4Sx9vExQjkqXT6aAERICMewd/UAp/IeYANM2joxt+q5VI+ieq2i0Wg3l6DNzHwTERPgo1ko7XBXj3vdlsT2F+UuhIhYkp7u7CarkcrFOCtR3H5JiwbAIeImjT/YQKKBtGjRFCU5IUgFRe7fF4cCNVIPMYo3VKqxwjyNAXNepuopyqnld602qVsfRpEkkz+GFL1wPj6ySXBpJtWVa5xlhpcyhBNwpZHmtX8AGgfIExo0ZpzkWVTBGiXCSEaHh62/PoR0p/vHaczxXGnj4bSo+G78lELU80h1uogBwWLf5YlsPmgDEd4M236xjm+8nm4IuE/9u+/PH2JXZfbwz4zw1WbO+SQPpXfwG/BBgAhCNZiSb/pOQAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-success {
+​color: #468847;
+​background-color: #DFF0D8;
+​border-color: #D6E9C6;
+​background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+}
+.notifyjs-bootstrap-info {
+​color: #3A87AD;
+​background-color: #D9EDF7;
+​border-color: #BCE8F1;
+​background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYFAhkSsdes/QAAA8dJREFUOMvVlGtMW2UYx//POaWHXg6lLaW0ypAtw1UCgbniNOLcVOLmAjHZolOYlxmTGXVZdAnRfXQm+7SoU4mXaOaiZsEpC9FkiQs6Z6bdCnNYruM6KNBw6YWewzl9z+sHImEWv+vz7XmT95f/+3/+7wP814v+efDOV3/SoX3lHAA+6ODeUFfMfjOWMADgdk+eEKz0pF7aQdMAcOKLLjrcVMVX3xdWN29/GhYP7SvnP0cWfS8caSkfHZsPE9Fgnt02JNutQ0QYHB2dDz9/pKX8QjjuO9xUxd/66HdxTeCHZ3rojQObGQBcuNjfplkD3b19Y/6MrimSaKgSMmpGU5WevmE/swa6Oy73tQHA0Rdr2Mmv/6A1n9w9suQ7097Z9lM4FlTgTDrzZTu4StXVfpiI48rVcUDM5cmEksrFnHxfpTtU/3BFQzCQF/2bYVoNbH7zmItbSoMj40JSzmMyX5qDvriA7QdrIIpA+3cdsMpu0nXI8cV0MtKXCPZev+gCEM1S2NHPvWfP/hL+7FSr3+0p5RBEyhEN5JCKYr8XnASMT0xBNyzQGQeI8fjsGD39RMPk7se2bd5ZtTyoFYXftF6y37gx7NeUtJJOTFlAHDZLDuILU3j3+H5oOrD3yWbIztugaAzgnBKJuBLpGfQrS8wO4FZgV+c1IxaLgWVU0tMLEETCos4xMzEIv9cJXQcyagIwigDGwJgOAtHAwAhisQUjy0ORGERiELgG4iakkzo4MYAxcM5hAMi1WWG1yYCJIcMUaBkVRLdGeSU2995TLWzcUAzONJ7J6FBVBYIggMzmFbvdBV44Corg8vjhzC+EJEl8U1kJtgYrhCzgc/vvTwXKSib1paRFVRVORDAJAsw5FuTaJEhWM2SHB3mOAlhkNxwuLzeJsGwqWzf5TFNdKgtY5qHp6ZFf67Y/sAVadCaVY5YACDDb3Oi4NIjLnWMw2QthCBIsVhsUTU9tvXsjeq9+X1d75/KEs4LNOfcdf/+HthMnvwxOD0wmHaXr7ZItn2wuH2SnBzbZAbPJwpPx+VQuzcm7dgRCB57a1uBzUDRL4bfnI0RE0eaXd9W89mpjqHZnUI5Hh2l2dkZZUhOqpi2qSmpOmZ64Tuu9qlz/SEXo6MEHa3wOip46F1n7633eekV8ds8Wxjn37Wl63VVa+ej5oeEZ/82ZBETJjpJ1Rbij2D3Z/1trXUvLsblCK0XfOx0SX2kMsn9dX+d+7Kf6h8o4AIykuffjT8L20LU+w4AZd5VvEPY+XpWqLV327HR7DzXuDnD8r+ovkBehJ8i+y8YAAAAASUVORK5CYII=);
+}
+.notifyjs-bootstrap-warn {
+​color: #C09853;
+​background-color: #FCF8E3;
+​border-color: #FBEED5;
+​background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
+}
+</style>
    <script src="/lib/less/dist/less.min.js"></script>
  
  
@@ -41,7 +83,49 @@
            font-family: "Font Awesome 5 Free";
        }
    </style>
-</head>
+<style type="text/css" id="core-notify">.notifyjs-corner {
+​position: fixed;
+​margin: 5px;
+​z-index: 1050;
+}
+ 
+.notifyjs-corner .notifyjs-wrapper,
+.notifyjs-corner .notifyjs-container {
+​position: relative;
+​display: block;
+​height: inherit;
+​width: inherit;
+​margin: 3px;
+}
+ 
+.notifyjs-wrapper {
+​z-index: 1;
+​position: absolute;
+​display: inline-block;
+​height: 0;
+​width: 0;
+}
+ 
+.notifyjs-container {
+​display: none;
+​z-index: 1;
+​position: absolute;
+}
+ 
+.notifyjs-hidable {
+​cursor: pointer;
+}
+ 
+[data-notify-text],[data-notify-html] {
+​position: relative;
+}
+ 
+.notifyjs-arrow {
+​position: absolute;
+​z-index: 2;
+​width: 0;
+​height: 0;
+}</style></head>
 <body>
    
  
@@ -57,781 +141,110 @@
  
  
    <link href="/css/credit-header.css?v=yBewTLTlJkh0hrt7naICLG_RJtVGBzrqbuDP-q0Iouc" rel="stylesheet">
-       <link href="/lib/uikit-main/dist/css/uikit.min.css" rel="stylesheet">
-       <script src="/lib/uikit-main/dist/js/uikit.min.js"></script>
-           <div class="preview-section">
-               <span>
-                   <a class="view-template fourth" onclick="toggleModal()">
-                       <span class="icon">
-                           <img src="/images/change-template-icon.png">
-                       </span>
-                       <span class="title">مشاهده رزومه در قالب دیگر</span>
-                   </a>
-               </span>
+       <header>
+           <a href="/">
+               <img src="/images/svg/mainLogo.svg" width="125">
+           </a>
+       </header>
+ 
+ 
+ 
+   <div class="button-section watermark ">
+       <ul class="download-buttons">
+ 
+           <li>
+               <a href="/Builder/Pdf/fa/template29/8925bcf8-3af5-492e-8ff7-a727ba98e2b0" class="button-design button-item download" onclick="CreatingPdf(this)">
+                   <span>
+                               نسخه رایگان PDF
+                   </span>
+               </a>
+           </li>
+           <li>
+               <a target="_blank" href="https://cvbuilder.me/Resume/fa/8925bcf8-3af5-492e-8ff7-a727ba98e2b0?template=template29" class="button-design button-item online">
+                   <span>
+نسخه وب (رایگان)                    </span>
+               </a>
+           </li>
+       </ul>
+       <ul class="action-buttons">
+           <li>
+               <a class="button-design" href="/Panel/fa" target="_blank">
+                       <label>پنل کاربری</label>
+               </a>
+           </li>
+           <li>
+               <a class="button-design" href="/builder/fa/8925bcf8-3af5-492e-8ff7-a727ba98e2b0" target="_blank">
+                       <label>ویرایش رزومه</label>
+               </a>
+           </li>
+       </ul>
+   </div>
+   <div class="tools-menu has-watermark">
+       <ul class="drop-down has-watermark">
+           <li class="item select-color">
+               <label>رنگ</label>
+                   <button value="#0d0d0d" class="active" onclick="changeColor(this)" style="background:#0d0d0d"></button>
+                   <button value="#0b6080" class="" onclick="changeColor(this)" style="background:#0b6080"></button>
+                   <button value="#800b0b" class="" onclick="changeColor(this)" style="background:#800b0b"></button>
+                   <button value="#4f6a0a" class="" onclick="changeColor(this)" style="background:#4f6a0a"></button>
+                   <button value="#7b6005" class="" onclick="changeColor(this)" style="background:#7b6005"></button>
+                   <button value="#620868" class="" onclick="changeColor(this)" style="background:#620868"></button>
+           </li>
+           <li class="item select-font">
+               <label>نوع فونت</label>
+               <div class="styled-select">
+                   <select onchange="changeFont(this)">
+                               <option value="IRANSans" selected="">ایران سنس</option>
+                               <option value="Naskh">نسخ</option>
+                               <option value="BYekan">یکان</option>
+                   </select>
+               </div>
+           </li>
+           <li class="item font increase">
+               <label>سایز فونت</label>
+               <button onclick="IncreaseFontSize(this)" class="font-size-increase fa fa-plus"></button>
+               <button onclick="DecreasefontSize(this)" class="font-size-decrease fa fa-minus"></button>
+               <span id="fontsizecounter" class="counter">23</span>
+           </li>
+           <li class="item font increase">
+               <label>فشرده‌تر / بازتر </label>
+               <button onclick="IncreaseSpace(this)" class="vartical-space-increase fa fa-plus"></button>
+               <button onclick="DecreaseSpace(this)" class="vartical-space-decrease fa fa-minus"></button>
+               <span id="spacecounter" class="counter">15</span>
+           </li>
+ 
+           <li>
+               <span class="fa fa-lock"></span>
+                   <label>فعالسازی پس از خرید</label>
+           </li>
+       </ul>
+           <div class="tools-menu-purchase">
+               <a class="button-design sheen-effect" href="/Panel/Invoice/fa?id=34">
+                       خرید نسخه بدون تبلیغ
+                   <div>7,900 تومان</div>
+               </a>
            </div>
- 
- 
-   <style>
-       h1, h2, h3, h4, h5, h6, p, button {
-           font-family: sdf;
-       }
- 
-       body.no-scroll {
-           overflow: hidden;
-       }
- 
-       body.noscroll {
-           overflow: hidden;
-       }
- 
-       .template-modal {
-           display: none;
-           position: absolute;
-           top: 0;
-           bottom: 0;
-           right: 0;
-           left: 0;
-           width: 100%;
-           height: 100%;
-           z-index: 9999999;
-           direction: rtl;
-       }
- 
-           .template-modal .template-modal_back {
-               position: fixed;
-               z-index: -1;
-               top: 0;
-               right: 0;
-               width: 100%;
-               height: 100%;
-               background: #515d6b;
-           }
- 
-           .template-modal.active {
-               display: block;
-           }
- 
-       .template-modal_header {
-           text-align: center;
-           margin: 30px auto;
-           width: 450px;
-       }
- 
-           .template-modal_header h3 {
-               font-size: 20px;
-               font-weight: bold;
-               color: white;
-               margin-bottom: 0;
-               padding-bottom: 15px;
-               border-bottom: 2px solid;
-           }
- 
-           .template-modal_header p {
-               font-size: 13px;
-               color: #dadada;
-               text-align: center;
-               margin-top: 5px;
-           }
- 
-       .template-items {
-           margin: 25px 0px;
-       }
- 
-           .template-items h3 {
-               font-size: 16px;
-               color: #b5b5b5;
-               font-weight: normal;
-               text-align: center;
-               margin-top: 20px;
-           }
- 
- 
-           .template-items .change-template {
-               display: none;
-               border: none;
-               padding: 0.8rem;
-               width: 90%;
-               font-size: 13px;
-               box-sizing: border-box;
-               text-align: center;
-               color: white;
-               background: #ff5953;
-               position: absolute;
-               bottom: 10px;
-               right: 0;
-               left: 0;
-               margin: 0 auto;
-               box-shadow: inset 0 -0.2rem 0 0 rgba(103, 4, 0, 0.15);
-               border-radius: 4px;
-               cursor: pointer;
-               transition: all 250ms;
-               text-decoration: none;
-           }
- 
-           .template-items a:hover {
-               background: #f6433d;
-           }
- 
-           .template-items img:hover {
-               -webkit-filter: grayscale(50%) blur(0.5px);
-               filter: grayscale(10%) blur(0px);
-           }
- 
-       .image-container {
-           width: 100%;
-           background: #fff;
-           display: flex;
-           align-items: start;
-           justify-content: center;
-           overflow: hidden;
-           background-position: top;
-           min-height: initial !important;
-           position: relative;
-           border-radius: 4px;
-           cursor: pointer;
-           height: calc(100% - 75px);
-       }
- 
-           .image-container span {
-               position: absolute;
-               top: 0;
-               display: inline-flex;
-               height: 100%;
-               width: 100%;
-               justify-content: center;
-               align-items: center;
-               background-color: #fff;
-           }
- 
-           .image-container img {
-               width: 100%;
-               height: auto !important;
-               -webkit-filter: grayscale(150%) blur(1.5px);
-               filter: grayscale(150%) blur(0.6px);
-               transition: all 150ms;
-           }
- 
-               .image-container img.loading {
-                   width: 50px !important;
-                   height: 50px !important;
-                   position: absolute;
-                   z-index: 1;
-                   min-height: initial !important;
-               }
- 
-           .image-container .change-template {
-               transition: all 150ms;
-           }
- 
-           .image-container:hover .change-template {
-               display: block
-           }
- 
-       .Carousel__NextArrow, .Carousel__PrevArrow {
-           position: absolute;
-           z-index: 9;
-           top: calc(57% - 6rem);
-           display: none;
-           width: 3.5rem;
-           height: 3.5rem;
-           align-items: center;
-           justify-content: center;
-           background: #ff6d67;
-           border-radius: 0.3rem;
-           color: #ffffff;
-           cursor: pointer;
-           text-align: center;
-       }
- 
-       .Carousel__NextArrow {
-           right: -54px;
-           border-radius: 0 4px 4px 0;
-       }
- 
-       .Carousel__PrevArrow {
-           left: -59px;
-           border-radius: 4px 0 0 4px;
-       }
- 
-       a[uk-slider-item] {
-           top: 38%;
-           left: 50%;
-           width: 50px;
-           height: 50px;
-           position: absolute;
-           background-color: #03A9F4;
-           border-radius: 4px;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           transition: all 150ms;
-           visibility: visible !important;
-       }
- 
-           a[uk-slider-item]:hover {
-               background-color: #0090d2;
-           }
- 
-       a[uk-slider-item="previous"] {
-           left: calc(37% - 2px);
-       }
- 
-       a[uk-slider-item="next"] {
-           right: calc(37% - 2px);
-           left: initial;
-       }
- 
-       .template-item--img {
-           display: none;
-       }
- 
-           .template-item--img[src] {
-               display: inline-block;
-           }
- 
-               .template-item--img[src] + span {
-                   display: none;
-               }
- 
-       img[data-src][src*='data:image'] {
-           background: rgba(0,0,0,0.1);
-       }
- 
-       @media only screen and (max-width: 640px) {
-           .image-container img {
-               filter: none;
-           }
- 
-           a[uk-slider-item="next"] {
-               right: 8%;
-           }
- 
-           a[uk-slider-item="previous"] {
-               left: 8%;
-           }
- 
-           .template-items .change-template {
-               display: block;
-               font-size: 15px;
-           }
-       }
- 
-       @media only screen and (max-width: 460px) {
-           .template-items .change-template {
-               display: block;
-           }
- 
-           .Carousel__PrevArrow {
-               left: -60px;
-           }
- 
-           .Carousel__NextArrow {
-               right: -50px;
-           }
- 
-           .template-modal_header {
-               width: 300px;
-           }
- 
-           .image-container {
-               height: calc(100% - 65px);
-           }
- 
-           .template-modal .uk-child-width-1-2 > * {
-               width: 75%;
-           }
-       }
- 
-       @media only screen and (max-width: 376px) {
-           a[uk-slider-item] {
-               top: 30%;
-               width: 45px;
-               height: 45px;
-           }
-       }
-   </style>
-   <div class="template-modal ">
-       <div class="template-modal_back"></div>
-       <div class="template-modal_header">
-           <h3>قالب مورد نظر خود را انتخاب کنید</h3>
-           <p>قالب های رزومه امکان تغییر رنگ، فونت و جابجایی المان ها را دارند</p>
-       </div>
-       <div class="uk-position-relative uk-visible-toggle uk-light uk-slider uk-slider-container" tabindex="-1" uk-slider="center: true" style="direction: rtl">
-           <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid" style="direction: rtl; transform: translate3d(0px, 0px, 0px);">
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template26',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="30" data-src="/Files/ResumeTemplate_Thumbnail/30/expert-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/30/expert-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب اکسپرت                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('PreviewDefault',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="2" data-src="/Files/ResumeTemplate_Thumbnail/2/PreviewDefault-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/2/PreviewDefault-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب پیش‌فرض                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template2',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="3" data-src="/Files/ResumeTemplate_Thumbnail/3/Classic-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/3/Classic-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب کلاسیک                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template3',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="4" data-src="/Files/ResumeTemplate_Thumbnail/4/Sun-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/4/Sun-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب خورشید                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template4',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="5" data-src="/Files/ResumeTemplate_Thumbnail/5/Modern-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/5/Modern-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب مدرن                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template5',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="6" data-src="/Files/ResumeTemplate_Thumbnail/6/Star-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/6/Star-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب ستاره                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template6',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="8" data-src="/Files/ResumeTemplate_Thumbnail/8/Management-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/8/Management-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب مدیریتی                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template7',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="10" data-src="/Files/ResumeTemplate_Thumbnail/10/Azure-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/10/Azure-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب آژور                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template8',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="11" data-src="/Files/ResumeTemplate_Thumbnail/11/Diplomat-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/11/Diplomat-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب دیپلمات                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template9',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="12" data-src="/Files/ResumeTemplate_Thumbnail/12/Official-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/12/Official-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب رسمی                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template10',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="13" data-src="/Files/ResumeTemplate_Thumbnail/13/Green-Matin-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/13/Green-Matin-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب متین(سبز)                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template11',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="14" data-src="/Files/ResumeTemplate_Thumbnail/14/Techno-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/14/Techno-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب تکنو                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template12',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="15" data-src="/Files/ResumeTemplate_Thumbnail/15/Red-Harmony-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/15/Red-Harmony-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب هارمونی(قرمز)                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template14',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="16" data-src="/Files/ResumeTemplate_Thumbnail/16/Green-Harmony-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/16/Green-Harmony-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب هارمونی(سبز)                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template15',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="17" data-src="/Files/ResumeTemplate_Thumbnail/17/Blue-Harmony-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/17/Blue-Harmony-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب هارمونی(آبی)                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template16',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="18" data-src="/Files/ResumeTemplate_Thumbnail/18/Flamingo-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/18/Flamingo-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب فلامینگو                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template13',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="19" data-src="/Files/ResumeTemplate_Thumbnail/19/Balance-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/19/Balance-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب بالانس                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template17',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="20" data-src="/Files/ResumeTemplate_Thumbnail/20/Blue-Matin-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/20/Blue-Matin-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب متین(آبی)                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template19',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="22" data-src="/Files/ResumeTemplate_Thumbnail/22/Accountants-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/22/Accountants-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب حسابداری                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template20',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="23" data-src="/Files/ResumeTemplate_Thumbnail/23/Academic-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/23/Academic-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب آکادمیک                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template21',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="24" data-src="/Files/ResumeTemplate_Thumbnail/24/Professional-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/24/Professional-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب حرفه‌ای                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template22',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="25" data-src="/Files/ResumeTemplate_Thumbnail/25/Freelancer-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/25/Freelancer-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب فریلنسر                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template23',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="27" data-src="/Files/ResumeTemplate_Thumbnail/27/Hybrid-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/27/Hybrid-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب هیبرید                         </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('Template24',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="28" data-src="/Files/ResumeTemplate_Thumbnail/28/Job-Searching-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/28/Job-Searching-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب کاریابی                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template25',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="29" data-src="/Files/ResumeTemplate_Thumbnail/29/Hydrolic-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/29/Hydrolic-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب تکنسین                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template27',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="31" data-src="/Files/ResumeTemplate_Thumbnail/31/technician-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/31/technician-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب گرافیک                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template28',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="33" data-src="/Files/ResumeTemplate_Thumbnail/33/template28 .png" src="/Files/ResumeTemplate_Thumbnail/33/template28 .png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب اداری                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template29',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="34" data-src="/Files/ResumeTemplate_Thumbnail/34/start-up-Sample-Resume-Tiny.PNG" src="/Files/ResumeTemplate_Thumbnail/34/start-up-Sample-Resume-Tiny.PNG">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب استارتاپ                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template30',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="35" data-src="/Files/ResumeTemplate_Thumbnail/35/engineering-Sample-Resume-Tiny.png" src="/Files/ResumeTemplate_Thumbnail/35/engineering-Sample-Resume-Tiny.png">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب مهندسی                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template31',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="42" data-src="/Files/ResumeTemplate_Thumbnail/42/Nova-Sample-Resume-Tiny.JPG" src="/Files/ResumeTemplate_Thumbnail/42/Nova-Sample-Resume-Tiny.JPG">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب نووآ                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template32',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="43" data-src="/Files/ResumeTemplate_Thumbnail/43/Organizational-Sample-Resume-Tiny.JPG" src="/Files/ResumeTemplate_Thumbnail/43/Organizational-Sample-Resume-Tiny.JPG">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب کارآموز                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template33',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="44" data-src="/Files/ResumeTemplate_Thumbnail/44/Standard-Sample-Resume.JPG" src="/Files/ResumeTemplate_Thumbnail/44/Standard-Sample-Resume.JPG">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب استاندارد                        </h3>
-                   </li>
-                   <li class="template-items uk-active" onclick="ChangeTemplate('template34',false)" tabindex="-1">
-                       <span class="image-container">
-                           <img class="template-item--img" data-id="45" data-src="/Files/ResumeTemplate_Thumbnail/45/template34-tiny.PNG" src="/Files/ResumeTemplate_Thumbnail/45/template34-tiny.PNG">
-                           <span>
-                               <img class="loading" src="/images/loading.gif">
-                           </span>
-                           <button class="change-template">استفاده از این قالب</button>
-                       </span>
-                       <h3>
-قالب اطلس                        </h3>
-                   </li>
-           </ul>
-           <a href="#" uk-slider-item="previous" class="uk-invisible"><svg viewBox="0 0 1792 1792" style="height: 4rem; width: 4rem;"><path d="M1203 544q0 13-10 23L800 960l393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10L631 983q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z" style="fill: rgb(255, 255, 255);"></path></svg></a>
-           <a href="#" uk-slider-item="next"><svg viewBox="0 0 1792 1792" style="height: 4rem; width: 4rem;"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" style="fill: rgb(255, 255, 255);"></path></svg></a>
-       </div>
+   </div>
+   <div class="zoom-place">
+       <span class="zoom-button" onclick="zoom(1.1)"><i class="fa fa-plus"></i></span>
+       <span class="zoom-button" onclick="zoom(0.9)"><i class="fa fa-minus"></i></span>
    </div>
    <script>
-       var hasUser = true;
-       var culture = 'fa';
-           var hasRefresh = true;
- 
-           var isOpen = false;
- 
-           var isIframe = false;
- 
-       function BodyScroll(scroll) {
-           var body = document.body;
-           if (scroll == null) {
-               window.scrollTo(0, 0);
-               body.classList.toggle('noscroll');
+       var zoom = function (value) {
+           var a = $('.container').css('zoom') * value;
+           if (a < 0.25 || a > 1.25) {
+               if (a > 1.25) a = 1.25;
+               else a = 0.25;
            }
-           else if (scroll == true) {
-               body.classList.remove('noscroll');
-           }
-           else if (scroll == false) {
-               window.scrollTo(0, 0);
-               body.classList.add('noscroll');
-           }
- 
-           var isMenu = $('.mobile-menu').hasClass('active');
-           if (!isMenu) {
-               body.classList.remove('noscroll');
-           }
+           $('.container').css('zoom', a);
        }
- 
-       function getCookie(name) {
-           var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-           return v ? v[2] : null;
-       }
- 
-       function setCookie(name, value, days) {
-           var d = new Date;
-           d.setTime(d.getTime() + 24 * 60 * 60 * 1000 * days);
-           document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
-       }
- 
-       function toggleModal() {
-           $('body').addClass('noscroll');
-           event.preventDefault();
-           var viewport = document.querySelector("meta[name=viewport]");
-           if (!isOpen && !isIframe) {
-               viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
-           } else {
-               viewport.setAttribute('content', 'width=1024');
-           }
- 
-           $template_modal = $('.template-modal');
-           $template_modal.addClass('active');
- 
-           //var $template_modal = $('.template-modal');
-           //if ($template_modal.hasClass('active')) {
-           //    $template_modal.removeClass('active');
-           //    BodyScroll(true);
-           //} else {
-           //    $template_modal.addClass('active');
-           //    BodyScroll(false);
-           //}
-       }
- 
-       function ChangeTemplate(name) {
-           $('body').removeClass('noscroll');
-           setCookie('PreviewTemplate', name);
-           $template_modal = $('.template-modal');
-           $template_modal.removeClass('active');
-           if (hasUser) {
-               var viewport = document.querySelector("meta[name=viewport]");
-               viewport.setAttribute('content', 'width=1024');
- 
-               setTimeout(function () { window.location.href = '/Builder/Preview/' + culture + "/454418a7-4066-47b9-8522-8e9678173495"  }, 1000);
-           }
-       }
- 
-       $(document).ready(function () {
-           $('.template-modal_back').click(function () {
-               if (!isOpen && !isIframe) {
-                   viewport = document.querySelector("meta[name=viewport]");
-                   viewport.setAttribute('content', 'width=1024');
-               }
- 
-               if ($(window).width() > 992) {
-                   BodyScroll(true);
-               }
-               $('.template-modal').removeClass('active');
-           })
- 
-           $(document).on('click', '.owl-item', function () {
-               var n = $(this).index();
-               $carousel.trigger('to.owl.carousel', n);
-           });
- 
-           var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-       });
- 
-       $(function () {
-           $('img[data-src]').each(function () {
-               $(this).attr('src', $(this).data('src'));
-           })
-       })
    </script>
- 
- 
- 
+   <script>
+       try {
+           options.userResumeId='8925bcf8-3af5-492e-8ff7-a727ba98e2b0'
+       } catch (e) {
+       }
+   </script>
  
  
 <script>
@@ -851,7 +264,7 @@
        }
    })
 </script>
-   <div class="container" style="height: 458.706mm;">
+   <div class="container" style="height: 593mm;">
        <div class="row" style="height:calc(100% - 340px)">
            <div class="contact-info">
                <span class="line1"></span>
@@ -860,7 +273,7 @@
                <span class="line4"></span>
                <span class="line5"></span>
                <span class="line6"></span>
-               <div class="user-image" style="background-image:url('/Files/User_Photo/11cd90d3-496a-4d2b-a22a-4f47b4c92d7f/pxhERWZAuUeFIo6WeBc0lQ-589.jpg');"></div>
+               <div class="user-image" style="background-image:url('/Files/User_Photo/11cd90d3-496a-4d2b-a22a-4f47b4c92d7f/_LwlifU6LkmP96cnupjisA-744.jpg');"></div>
                <div style="width:100%;text-align:center;position:absolute;z-index:99">
                    <h1>مهدیه احمدی پور</h1>
                        <h2>دانشجوی مهندسی کامپیوتر</h2>
@@ -906,14 +319,14 @@
                    <i class="fas fa-globe"></i>
                </span>
                <span>وب سایت:</span>
-               <span>mahdiye_pq</span>
+               <span>https://quera.ir/profile/mahdiye9sunsky</span>
            </div>
                <div class="contact-item contact__city">
                <span>
                    <i class="fas fa-map-marker"></i>
                </span>
                <span>آدرس:</span>
-               <span>تهران، تهران-مهرآباد جنوبی-خیابان14معصوم-کوچه حبیبی-پلاک32</span>
+               <span>تهران، تهران_مهرآباد جنوبی_خیابان14معصوم_کوچه حبیبی_پلاک32</span>
            </div>
 </div>
                </div>
@@ -956,33 +369,7 @@
                        </li>
                        <li>
                            <span>
-                               <label> نرم افزار office</label>
-                                   <label class="grade">
-                                       <small>80%</small>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i></i>
-                                   </label>
-                           </span>
-                       </li>
-                       <li>
-                           <span>
-                               <label>هماهنگی</label>
-                                   <label class="grade">
-                                       <small>80%</small>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i></i>
-                                   </label>
-                           </span>
-                       </li>
-                       <li>
-                           <span>
-                               <label>نرم افزار پاور پوینت </label>
+                               <label>نرم افزار های افیس</label>
                                    <label class="grade">
                                        <small>80%</small>
                                            <i class="tik"></i>
@@ -1008,32 +395,6 @@
                        </li>
                        <li>
                            <span>
-                               <label> برنامه های افیس</label>
-                                   <label class="grade">
-                                       <small>80%</small>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i></i>
-                                   </label>
-                           </span>
-                       </li>
-                       <li>
-                           <span>
-                               <label> تایپ</label>
-                                   <label class="grade">
-                                       <small>80%</small>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i></i>
-                                   </label>
-                           </span>
-                       </li>
-                       <li>
-                           <span>
                                <label> برنامه نویسی java</label>
                                    <label class="grade">
                                        <small>60%</small>
@@ -1047,7 +408,20 @@
                        </li>
                        <li>
                            <span>
-                               <label> برنامه نویسی سی شارپ</label>
+                               <label>برنامه‌نویسی # c</label>
+                                   <label class="grade">
+                                       <small>60%</small>
+                                           <i class="tik"></i>
+                                           <i class="tik"></i>
+                                           <i class="tik"></i>
+                                           <i></i>
+                                           <i></i>
+                                   </label>
+                           </span>
+                       </li>
+                       <li>
+                           <span>
+                               <label>بسکتبال و شنا</label>
                                    <label class="grade">
                                        <small>60%</small>
                                            <i class="tik"></i>
@@ -1061,19 +435,6 @@
                        <li>
                            <span>
                                <label>  فتوشاپ</label>
-                                   <label class="grade">
-                                       <small>60%</small>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i class="tik"></i>
-                                           <i></i>
-                                           <i></i>
-                                   </label>
-                           </span>
-                       </li>
-                       <li>
-                           <span>
-                               <label>​برنامه نویسی با زبان  c++</label>
                                    <label class="grade">
                                        <small>60%</small>
                                            <i class="tik"></i>
@@ -1117,27 +478,7 @@
                                        <div class="bar"></div>
                                        <div class="fill"></div>
                                    </div>
-                                   <div class="circle-progress__title"> نرم افزار office</div>
-                               </div>
-                           </li>
-                           <li>
-                               <div class="c100 p80 small">
-                                   <span>80%</span>
-                                   <div class="slice">
-                                       <div class="bar"></div>
-                                       <div class="fill"></div>
-                                   </div>
-                                   <div class="circle-progress__title">هماهنگی</div>
-                               </div>
-                           </li>
-                           <li>
-                               <div class="c100 p80 small">
-                                   <span>80%</span>
-                                   <div class="slice">
-                                       <div class="bar"></div>
-                                       <div class="fill"></div>
-                                   </div>
-                                   <div class="circle-progress__title">نرم افزار پاور پوینت </div>
+                                   <div class="circle-progress__title">نرم افزار های افیس</div>
                                </div>
                            </li>
                            <li>
@@ -1148,26 +489,6 @@
                                        <div class="fill"></div>
                                    </div>
                                    <div class="circle-progress__title"> برنامه نویسی c</div>
-                               </div>
-                           </li>
-                           <li>
-                               <div class="c100 p80 small">
-                                   <span>80%</span>
-                                   <div class="slice">
-                                       <div class="bar"></div>
-                                       <div class="fill"></div>
-                                   </div>
-                                   <div class="circle-progress__title"> برنامه های افیس</div>
-                               </div>
-                           </li>
-                           <li>
-                               <div class="c100 p80 small">
-                                   <span>80%</span>
-                                   <div class="slice">
-                                       <div class="bar"></div>
-                                       <div class="fill"></div>
-                                   </div>
-                                   <div class="circle-progress__title"> تایپ</div>
                                </div>
                            </li>
                            <li>
@@ -1187,7 +508,17 @@
                                        <div class="bar"></div>
                                        <div class="fill"></div>
                                    </div>
-                                   <div class="circle-progress__title"> برنامه نویسی سی شارپ</div>
+                                   <div class="circle-progress__title">برنامه‌نویسی # c</div>
+                               </div>
+                           </li>
+                           <li>
+                               <div class="c100 p60 small">
+                                   <span>60%</span>
+                                   <div class="slice">
+                                       <div class="bar"></div>
+                                       <div class="fill"></div>
+                                   </div>
+                                   <div class="circle-progress__title">بسکتبال و شنا</div>
                                </div>
                            </li>
                            <li>
@@ -1200,23 +531,13 @@
                                    <div class="circle-progress__title">  فتوشاپ</div>
                                </div>
                            </li>
-                           <li>
-                               <div class="c100 p60 small">
-                                   <span>60%</span>
-                                   <div class="slice">
-                                       <div class="bar"></div>
-                                       <div class="fill"></div>
-                                   </div>
-                                   <div class="circle-progress__title">​برنامه نویسی با زبان  c++</div>
-                               </div>
-                           </li>
                    </ul>
                </div>
            </div>
        </div>
    </div>
  
-   <div class="property-item social__list" data-section="SocialNet">
+   <div class="break-property-item"><div class="page-break"></div><div class="page-break-space" style="min-height:22.01666666666671mm"></div></div><div class="property-item social__list" data-section="SocialNet">
        <div class="property-item_head">
            <span>
                <i class="fa fa-globe"></i>
@@ -1280,7 +601,7 @@
        </div>
        <div class="property-item_body">
            <p class="about-us">
-               دانشجوی دوره کارشناسی مهندسی کامپیوتر ورودی97 علاقه مند به برنامه نویسی و شاغل در زمینه غیررشته تحصیلی.
+               دانشجوی دوره کارشناسی مهندسی کامپیوتر علاقه مند به برنامه نویسی اما شاغل در زمینه غیر رشته تحصیلی
            </p>
        </div>
    </div>
@@ -1301,16 +622,14 @@
                    <li>
                        <h2 class="subtitle">کارشناسی  مهندسی کامپیوتر</h2>
                        <h3 class="subtitle"></h3>
-                                   <h3 class="subtitle">موسسه/دانشگاه: پیام نور کرج <label>پیام نور</label></h3>
+                                   <h3 class="subtitle">موسسه/دانشگاه: دانشگاه واحد کرج <label>پیام نور</label></h3>
                                                    <label class="date">ورودی سال  ۱۳۹۷</label>
                                            </li>
                    <li>
                        <h2 class="subtitle">دیپلم  ریاضی فیزیک</h2>
                        <h3 class="subtitle"></h3>
-                                   <h3 class="subtitle">موسسه/مدرسه: دبیرستان فرهیختگان <label>دولتی</label></h3>
-                                                   <label class="date">ورودی سال  ۱۳۹۳</label>
-                                                   <label class="Education-Grade">معدل : ۱۷</label>
-                   </li>
+                                   <h3 class="subtitle">موسسه/مدرسه: دبیرستان فرهیختگان تهران <label>دولتی</label></h3>
+                                                                   </li>
            </ul>
        </div>
    </div>
@@ -1324,8 +643,8 @@
        </div>
        <div class="property-item_body">
            <ul class="history multi-line">
-                       <li class="861095">
-                           <h2 class="subtitle">مسئول هماهنگی و فروش</h2>
+                       <li class="861208">
+                           <h2 class="subtitle">مسئول هماهنگی</h2>
                            <h3 class="subtitle">
 شرکت: چوب و هنر
                            </h3>
@@ -1334,11 +653,11 @@
                                <label class="exp-desc-title">وظایف و دستاوردها</label>
                                <ul class="exp-desc">
                                            <li>هماهنگی با مشتریان و دریافت تسویه حساب</li>
-                                           <li>هماهنگی با بخش اداری دفترمرکزی</li>
+                                           <li>هماهنگی با بخش اداری کارخانه ودفترمرکزی</li>
                                            <li>فروش حضوری و غیرحضوری</li>
                                </ul>
                        </li>
-                       <li class="861096">
+                       <li class="861209">
                            <h2 class="subtitle">بازاریاب</h2>
                            <h3 class="subtitle">
 شرکت: اسنپ
@@ -1406,7 +725,7 @@
                                    </label>
                                </span>
                            </li>
-                           <li>
+                           <li class="break-property-item"><div class="page-break"></div><div class="page-break-space" style="min-height:32.60000000000002mm"></div></li><li>
                                <h2 class="subtitle language-item">کره ای</h2>
                                <span>
                                    <label>مهارت خواندن</label>
@@ -1548,7 +867,7 @@
  
            </div>
        </div>
-   </div>
+   <div data-page="1" class="page-indicator" style="top: 0mm;"></div><div data-count="1" class="page-watermark" style="top: 135mm; display: block;">CVBUILDER.ME</div><div data-page="2" class="page-indicator" style="top: 297mm;"></div><div data-count="2" class="page-watermark" style="top: 432mm; display: block;">CVBUILDER.ME</div></div>
    
  
 <style>
@@ -1611,7 +930,8 @@
        for (var i = 0; i < pages; i++) {
            var top = i * 297;
            $('<div data-page="' + (i + 1) + '" class="page-indicator"></div>').appendTo('.container').css({ top: top + 'mm' });
-       }
+               top += 135;
+$('<div data-count="' + (i + 1) + '" class="page-watermark">CVBUILDER.ME</div>').appendTo('.container').css({ top: top + 'mm',display: 'block' });        }
  
    };
    function measureHeight(selector) {
@@ -1650,31 +970,101 @@
    options.errorMessage = 'اشکال در ذخیره اطلاعات';
 </script>
  
-   <div class="footer">
-       ایجاد شده توسط
-       <a href="https://cvbuilder.me">
-           cvbuilder.me
-       </a>
-   </div>
+   <script src="/js/template-design.js?v=qh37yYTn32ssXjJY8gqHQOxPouS-wf4MuCx1hWje8K4"></script>
+       <script>
+           var newVars = options.newVars;
+           var reloadStyle = function () {
+               $('body > .container').addClass("active");
+               $.when($.get("/css/Template/" + options.templateName + "-RTL.less"))
+                   .done(function (lessCode) {
+                       $('#dynamic-style').remove();
+                       less.render(lessCode, {
+                           "modifyVars": newVars
+                       }, function (err, output) {
+                           if (err) return console.error(err);
+                           $('<style id="dynamic-style" />').text(output.css).appendTo($('body'));
+                       });
+                       $('body > .container').removeClass("active");
+                   });
+               $('li.save-button').addClass('active');
+           }
+ 
+           $(function () {
+               reloadStyle();
+               $('li.save-button').removeClass('active');
+               setTimeout(function () {
+                   $('body > .container').show();
+               }, 800);
+           })
+       </script>
+ 
+ 
    <style>
-       .container {
-           box-shadow: 0 0 6px -2px #000;
-           margin: 0 auto;
-           margin-top: 40px;
-           margin-bottom: 50px;
-           min-height: 297mm;
+       @media all {
+           .break-property-item {
+               display: block;
+               min-height: 0px;
+               clear: both;
+               width: 100%;
+           }
        }
    </style>
-       <script src="/js/template-release.js"></script>
    <script>
-       window.onload = function () {
+       var adjustPageBreak = function (selector) {
            setTimeout(function () {
-               webHeightAdjust();
-           }, 800);
-       }
+               var A4PageHeight = 297;
+               var dpi = 96;
+               var containerHeight_mm = parseInt(document.querySelector('.container').offsetHeight * 25.4 / dpi);
+ 
+               var pages = Math.ceil(containerHeight_mm / A4PageHeight);
+ 
+               for (var j = 1; j <= pages; j++) {
+ 
+                   var items = document.querySelectorAll(selector);
+                   for (var i = 0; i < items.length; i++) {
+                       var elem = items[i];
+                       var elem_end_top = elem.offsetTop + elem.offsetHeight;
+                       var elem_end_top_mm = (elem_end_top * 25.4) / dpi;
+ 
+                       if (elem_end_top_mm > A4PageHeight * j - (j - 1) * 10) {
+ 
+                           var spaceHeight = (A4PageHeight * j - (elem.offsetTop * 25.4) / dpi) + 15;
+ 
+                           var index = Array.prototype.indexOf.call(elem.parentNode.children, elem);
+ 
+                           if (index == 0) {
+                               var page_break = document.createElement('div');
+                               page_break.className = "break-property-item";
+                               var closestPropertyItem = $(elem).closest(".property-item").get()[0];
+ 
+                               page_break.innerHTML = '<div class="page-break"></div><div class="page-break-space" style="min-height:' + spaceHeight + 'mm"></div>';
+                               closestPropertyItem.parentNode.insertBefore(page_break, closestPropertyItem);
+                           }
+                           else {
+                               var page_break = document.createElement('li');
+                               page_break.className = "break-property-item";
+                               page_break.innerHTML = '<div class="page-break"></div><div class="page-break-space" style="min-height:' + spaceHeight + 'mm"></div>';
+                               elem.parentNode.insertBefore(page_break, elem);
+                           }
+ 
+                           break;
+                       }
+                   }
+               }
+           }, 0);
+       };
    </script>
+   <script>
  
+       setTimeout(function () {
+           fullHeight(false);
+           adjustPageBreak('.one-col-layout ul.history li');
+           adjustPageBreak('.col-narrow ul.history li');
+           adjustPageBreak('.col-wide ul.history li');
  
+       }, 500);
+ 
+   </script>
  
    <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-101108363-3"></script>
@@ -2235,6 +1625,4 @@ label.exp-desc-title {
 ul.exp-desc li:before {
  background: #0d0d0d;
 }
-"لینک اکانت من در کوئرا:"
-"https://quera.ir/profile/mahdiye9sunsky"
 </style></body>
